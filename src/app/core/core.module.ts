@@ -2,7 +2,7 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import * as fr from '@angular/common/locales/fr';
 import { CommonModule, registerLocaleData } from '@angular/common';
 import { httpInterceptorProviders } from './interceptors';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './components/header/header.component';
 import { RouterModule } from '@angular/router';
 
 
